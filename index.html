@@ -1,59 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Leadric Alexei</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/jpg" href="https://upload.wikimedia.org/wikipedia/ru/b/b7/NirvanaNevermindalbumcover.jpg">
+﻿<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orar USARB</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Leadric Alexei</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#links">Links</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="page-header">
+        <h1>Universitatea de Stat „Alecu Russo” din Bălți</h1>
+        <p>Orar zilnic pentru grupa TI-202 &ndash; anul universitar curent</p>
+    </header>
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hello! I'm Leadric Alexei, a passionate developer and tech enthusiast. I love music and guitars.</p>
-    </section>
+    <main>
+        <section class="schedule-card">
+            <table class="timetable" aria-describedby="descriere-orar">
+                <caption id="descriere-orar">Ziua de cursuri &ndash; Luni</caption>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="time-block">
+                            <span>08:00</span>
+                            <span>09:30</span>
+                        </th>
+                        <td>
+                            <p class="course-title">Editoare grafice</p>
+                            <p>Prelegeri</p>
+                            <p>conf. univ., dr. Negara C.</p>
+                            <p>aud.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="time-block">
+                            <span>09:45</span>
+                            <span>11:15</span>
+                        </th>
+                        <td>
+                            <p class="course-title">Proiectarea și dezvoltarea aplicațiilor Web</p>
+                            <p>Laborator</p>
+                            <p>prof. Cernolev C.</p>
+                            <p>aud. 143</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="time-block">
+                            <span>11:30</span>
+                            <span>13:00</span>
+                        </th>
+                        <td>
+                            <p class="course-title">Proiectarea și dezvoltarea aplicațiilor Web</p>
+                            <p>Prelegeri</p>
+                            <p>asist. univ. Chilăt S.</p>
+                            <p>aud. 141</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="time-block">
+                            <span>13:15</span>
+                            <span>14:45</span>
+                        </th>
+                        <td>
+                            <p class="course-title">Limba engleză I</p>
+                            <p>Seminar</p>
+                            <p>asist. univ. L. Coșulean</p>
+                            <p>aud.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="time-block">
+                            <span>15:00</span>
+                            <span>16:30</span>
+                        </th>
+                        <td class="empty-slot"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="time-block">
+                            <span>16:45</span>
+                            <span>18:15</span>
+                        </th>
+                        <td class="empty-slot"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="time-block">
+                            <span>18:30</span>
+                            <span>20:00</span>
+                        </th>
+                        <td class="empty-slot"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>Project One:</strong> A web application for musicians to find chords.</li>
-        <li><strong>Project Two:</strong> Open-source library for data visualization.</li>
-        <li><strong>Project Three:</strong> Mobile app for personal finances.</li>
-      </ul>
-    </section>
-
-    <section id="links">
-      <h2>My Favorite Links</h2>
-      <ul>
-        <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
-        <li><a href="https://github.com" target="_blank">GitHub</a></li>
-        <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a></li>
-      </ul>
-    </section>
-
-    <img src="https://upload.wikimedia.org/wikipedia/ru/b/b7/NirvanaNevermindalbumcover.jpg" alt="Nirvana Nevermind Album Cover" width="300">
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p><a href="mailto:Leadriklesha@gmail.com">Leadriklesha@gmail.com</a></p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Leadric Alexei. All rights reserved.</p>
-  </footer>
+    <footer class="page-footer">
+        <p>&copy; 2025 USARB &ndash; Centrul Tehnologia Informației și Comunicațiilor</p>
+    </footer>
 </body>
 </html>
